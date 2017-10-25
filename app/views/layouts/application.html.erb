@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <header class="row">
+    <header class="row d-flex align-items-center">
       <div class="col-3">
         <%= link_to root_path, class: 'logo' do %>
           <div class="circle">
@@ -74,12 +74,12 @@
 
     <div class="footer">
       <div class="container">
-        <div class="row">
+        <div class="row d-flex align-items-center">
           <div class="col-12 col-sm-6">
             <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
           </div>
           <div class="col-12 col-sm-6 footer-blurb">
-            This is some more content.
+            Built in Boise.
           </div>
         </div>
       </div>
